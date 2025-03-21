@@ -1,4 +1,4 @@
-drop table if exists store, employee, manager, flavor, cone, product;
+drop table if exists store, employee, manager, flavor, cone, customer;
 
 create table if not exists store (
   id serial primary key,
